@@ -1,0 +1,27 @@
+{
+  "name": "valcade",
+  "version": "1.0.0",
+  "description": "A lightweight, human-readable JavaScript validation library",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ademayo959/Valcade.git"
+  },
+  "keywords": [
+    "validation",
+    "validator",
+    "forms",
+    "email",
+    "password",
+    "javascript"
+  ],
+  "author": "Olùwámâyõwá",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Ademayo959/Valcade/issues"
+  },
+  "homepage": "https://github.com/Ademayo959/Valcade#readme"
+}
