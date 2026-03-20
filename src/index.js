@@ -150,32 +150,3 @@ let isEmpty = (value) => {
 let isNotEmpty = (value) => {
     return value.trim() !== ''
 }
-
-
-
-
-
-//console.log(isAlphabetic('1z2s3d'))
-//console.log(isAlphabetic('acdbdbdd').message)
-//console.log(isAlphabetic('2525262'))
-//console.log(isAlphabetic(2626262))
-//console.log(isNegative(-12))
-//console.log(isNegative('-1a2'))
-//console.log(isNegative('-12'))
-//console.log(isNegative(12))
-//console.log(isEmpty(""))
-//console.log(isNotEmpty('fgf'))
-//console.log(isNotEmpty(''))
-//console.log(isAlphaNumeric('1dafadaf'))
-//console.log(isAlphaNumeric('12324'))
-//console.log(isAlphaNumeric('1dafadaf'))
-//console.log(isURL('1djdj'))
-//console.log(isDecimal(0.2))
-//console.log(isEmail('ademayo234@gmail.com'))
-//console.log(isEmail('ademayo234'))
-console.log(isStrongPassword('sgAsg7878##'))
-console.log(isStrongPassword('sgsg##'))
-console.log(isStrongPassword('sgsg7878009090'))
-console.log(isMediumPassword('sgsg7878##'))
-console.log(isMediumPassword('sgs##'))
-console.log(isMediumPassword('sgsg78sgs'))
