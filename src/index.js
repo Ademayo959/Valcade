@@ -150,3 +150,23 @@ let isEmpty = (value) => {
 let isNotEmpty = (value) => {
     return value.trim() !== ''
 }
+
+module.exports = {
+  isEmail,
+  isPhoneNumber,
+  isURL,
+  isAlphabetic,
+  isAlphaNumeric,
+  isUppercase,
+  isLowercase,
+  isEmpty,
+  isNotEmpty,
+  isNumeric,
+  isDecimal,
+  isPositive,
+  isNegative,
+  isGmail,
+  isStrongPassword,
+  isMediumPassword,
+  isWeakPassword
+};
