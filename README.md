@@ -62,12 +62,9 @@ cascade.isNegative(-5);
 
 **Security & Forms**
 
-`isPhoneNumber(value)` validates international phone number formats. `isCreditCard(value)` validates card numbers using the Luhn algorithm — the same standard used by banks worldwide. For passwords, Valcade gives you three tiers: `isWeakPassword(value)` requires at least 6 characters, `isMediumPassword(value)` requires at least 8 characters with both letters and numbers, and `isStrongPassword(value)` requires at least 10 characters with uppercase, lowercase, numbers and special characters.
+`isPhoneNumber(value)` validates international phone number formats. For passwords, Valcade gives you three tiers: `isWeakPassword(value)` requires at least 6 characters, `isMediumPassword(value)` requires at least 8 characters with both letters and numbers, and `isStrongPassword(value)` requires at least 10 characters with uppercase, lowercase, numbers and special characters.
 
 ```js
-cascade.isCreditCard("4111111111111111");
-// { result: true, message: 'Value is a valid credit card number' }
-
 cascade.isStrongPassword("Secure@1234");
 // { result: true, message: 'Password is Strong' }
 
