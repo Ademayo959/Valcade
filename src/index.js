@@ -62,7 +62,7 @@ let isEmail = (string) => {
 }
 
 let isWeakPassword = (value) => {
-    let result = str.length >= 6;
+    let result = value.length >= 6;
     return {
         result: result,
         message: result ? "Password is Weak" : "Password must be at least 6 characters"
