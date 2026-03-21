@@ -1,10 +1,13 @@
 {
   "name": "valcade",
-  "version": "1.0.2",
+  "version": "1.0.4",
   "description": "A lightweight, human-readable JavaScript validation library",
   "main": "src/index.js",
+  "browser": "dist/valcade.min.js",
+  "unpkg": "dist/valcade.min.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "rollup -c"
   },
   "repository": {
     "type": "git",
@@ -23,5 +26,8 @@
   "bugs": {
     "url": "https://github.com/Ademayo959/Valcade/issues"
   },
-  "homepage": "https://github.com/Ademayo959/Valcade#readme"
+  "homepage": "https://github.com/Ademayo959/Valcade#readme",
+  "devDependencies": {
+    "rollup": "^4.59.1"
+  }
 }

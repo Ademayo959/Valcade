@@ -151,7 +151,7 @@ let isNotEmpty = (value) => {
     return value.trim() !== ''
 }
 
-module.exports = {
+export {
   isEmail,
   isPhoneNumber,
   isURL,
