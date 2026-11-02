@@ -18,7 +18,7 @@ let isNumeric = (number) => {
 
 let isAlphaNumeric = (value) => {
     const pattern = /^[a-zA-Z0-9]+$/;
-    let result = pattern.test(String(value));
+    let result = typeof value === "string" && pattern.test(String(value));
     return {
         result: result,
         message: result ? "String is alphanumeric" : "String must be alphanumeric"
